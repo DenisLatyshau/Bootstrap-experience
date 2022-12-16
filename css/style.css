@@ -75,7 +75,7 @@ header, footer {
   height: 100%;
 }
 /* About course */
-.about, .shedule, .learning {
+.about, .schedule, .author {
   background-color: #eee;
 }
 
@@ -118,6 +118,15 @@ header, footer {
 .learning h5 {
   padding: 25px;
   border: 3px solid var(--color-light);
+}
+
+/* Author  */
+.author {
+  padding-bottom: 0;
+}
+
+.itd_img {
+  max-width: 260px;
 }
 
 /* Color */
