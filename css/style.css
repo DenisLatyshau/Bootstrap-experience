@@ -74,6 +74,47 @@ header, footer {
   width: 100%;
   height: 100%;
 }
+/* About course */
+.about, .shedule {
+  background-color: #eee;
+}
+
+.about i {
+  font-size: 25px;
+  color: var(--color-dark)
+}
+
+.itd_circle {
+  margin: 0 auto 15px;
+  width: 70px;
+  height: 70px;
+  border: 3px solid var(--color-dark);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line {
+  width: 100px;
+  height: 3px;
+  background-color: var(--color-light);
+  margin: 15px auto 30px;
+}
+
+/* Forwhom */
+.forwhom h5 {
+  padding: 50px;
+  border: 3px solid var(--color-light);
+}
+
+/* Course program */
+.accordion-button:not(.collapsed) {
+  color: var(--bs-black);
+  background-color: var(--bs-white);
+}
+
+
 
 /* Color */
 .color-light {
