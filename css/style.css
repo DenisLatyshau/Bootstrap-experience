@@ -3,7 +3,7 @@
   --color-dark: #52339a;
 }
 
-header, footer, section {
+section {
   padding: 100px 0
 }
 
@@ -77,6 +77,11 @@ header, footer {
 /* About course */
 .about, .schedule, .author, .buy {
   background-color: #eee;
+}
+
+/* Footer */
+footer {
+  padding: 30px 0;
 }
 
 .about i {
