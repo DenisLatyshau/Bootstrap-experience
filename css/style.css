@@ -75,7 +75,7 @@ header, footer {
   height: 100%;
 }
 /* About course */
-.about, .schedule, .author {
+.about, .schedule, .author, .buy {
   background-color: #eee;
 }
 
